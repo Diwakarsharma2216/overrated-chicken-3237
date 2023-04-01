@@ -1,0 +1,727 @@
+{
+  "FeaturedCaterories": [
+    {
+      "id": "1",
+      "h2": "Audio",
+      "quantity": 1,
+      "img": "https://cdn.shopify.com/s/files/1/0262/2226/4423/files/descarga_3_1600x.webp?v=1652917417"
+    },
+    {
+      "id": "2",
+      "h2": "Massage Chairs",
+      "quantity": 1,
+      "img": "https://cdn.shopify.com/s/files/1/0262/2226/4423/files/descarga_15_1600x.webp?v=1652917776"
+    },
+    {
+      "id": "3",
+      "h2": "Foot & Leg Massage",
+      "quantity": 1,
+      "img": "https://cdn.shopify.com/s/files/1/0262/2226/4423/files/descarga_5_1600x.webp?v=1652917431"
+    },
+    {
+      "id": "4",
+      "h2": "Neck & Back Massage",
+      "quantity": 1,
+      "img": "https://cdn.shopify.com/s/files/1/0262/2226/4423/files/descarga_6_1600x.webp?v=1652917439"
+    },
+    {
+      "id": "5",
+      "h2": "Wine & Bar",
+      "quantity": 1,
+      "img": "https://cdn.shopify.com/s/files/1/0262/2226/4423/files/descarga_7_1600x.webp?v=1652917449"
+    },
+    {
+      "id": "6",
+      "h2": "Lighting",
+      "quantity": 1,
+      "img": "https://cdn.shopify.com/s/files/1/0262/2226/4423/files/descarga_8_1600x.webp?v=1652917479"
+    },
+    {
+      "id": "7",
+      "h2": "Pillows",
+      "quantity": 1,
+      "img": "https://cdn.shopify.com/s/files/1/0262/2226/4423/files/descarga_9_1600x.webp?v=1652917507"
+    },
+    {
+      "id": "8",
+      "h2": "Skincare",
+      "quantity": 1,
+      "img": "https://cdn.shopify.com/s/files/1/0262/2226/4423/files/descarga_10_1600x.webp?v=1652917518"
+    },
+    {
+      "id": "9",
+      "h2": "LED Light Therapy",
+      "quantity": 1,
+      "img": "https://cdn.shopify.com/s/files/1/0262/2226/4423/files/led_1600x.png?v=1661534692"
+    },
+    {
+      "id": "10",
+      "h2": "Technology",
+      "quantity": 1,
+      "img": "https://cdn.shopify.com/s/files/1/0262/2226/4423/files/descarga_12_1600x.webp?v=1652917527"
+    },
+    {
+      "id": "11",
+      "h2": "Kitchen",
+      "quantity": 1,
+      "img": "https://cdn.shopify.com/s/files/1/0262/2226/4423/files/descarga_13_1600x.webp?v=1652917545"
+    },
+    {
+      "id": "12",
+      "h2": "Outdoor",
+      "quantity": 1,
+      "img": "https://cdn.shopify.com/s/files/1/0262/2226/4423/files/descarga_14_1600x.webp?v=1652917554"
+    }
+  ],
+  "new": [
+    {
+      "id": 1,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/41A+iLlIxZL._AC_UL320_.jpg",
+      "title": "Havells Fab Alkaline 7 Litre Absoulety safe, RO + UV Purified Water Purifier with 7 Stages and Alkaline Water Technology (White and Sky Blue)",
+      "price": 21229,
+      "categroy": "electronic"
+    },
+    {
+      "id": 2,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/812p0M3wOBL._AC_UL320_.jpg",
+      "title": "Usha Immersion Heater (2410) 1000-Watt with Shock Protection (Silver)",
+      "price": 590,
+      "categroy": "electronic"
+    },
+    {
+      "id": 3,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/51t3VW1hniL._AC_UL320_.jpg",
+      "title": "Usha Aquerra 15 Litre 5 Star Storage Water Heater (White), Wall Mounting",
+      "price": 14990,
+      "categroy": "electronic"
+    },
+    {
+      "id": 4,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/51OSdOYARKL._AC_UL320_.jpg",
+      "title": "Usha Misty Pro 15 Litre 5 Star Storage Water Heater (Twinkling Grey), Wall Mounting",
+      "price": 11295,
+      "categroy": "electronic"
+    },
+    {
+      "id": 5,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/51laitshu2L._AC_UL320_.jpg",
+      "title": "Butterfly Smart Glass Top 2 Burner Open Gas Stove (Black), Manual Ignition",
+      "price": "₹4,995",
+      "categroy": "electronic"
+    },
+    {
+      "id": 6,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/51gCF-g7GIL._AC_UL320_.jpg",
+      "title": "Bajaj Splendora 3 Litre 3KW IWH Instant Water Heater (Geyser), White",
+      "price": 5890,
+      "categroy": "electronic"
+    },
+    {
+      "id": 7,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61xlzx7+anL._AC_UL320_.jpg",
+      "title": "Shining Diva Fashion Hot-selling Latest Fashion Jewellery Collection Gold Plated Pendant for Women (Blue)(9278np)",
+      "price": 1999,
+      "categroy": "beauty"
+    },
+    {
+      "id": 8,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/51TYBmz4JXL._AC_UL320_.jpg",
+      "title": "Butterfly Smart Glass 3 Burner Gas Stove, Black, Manual Ignition",
+      "price": 6495,
+      "categroy": "electronic"
+    },
+    {
+      "id": 9,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/710+M61cX4L._AC_UL320_.jpg",
+      "title": "Diverse Men's Regular Fit Formal Shirt",
+      "price": 1199,
+      "categroy": "cloth"
+    },
+    {
+      "id": 10,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/71JnC0xndnL._AC_UL320_.jpg",
+      "title": "Maggi 2-Minute Masala Instant Noodles, 280 grams Pouch",
+      "price": 55,
+      "categroy": "food"
+    },
+    {
+      "id": 11,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/51aqiqoKB+L._AC_UL320_.jpg",
+      "title": "LAKMÉ Eyeconic Kajal Twin Pack, Black, 0.35g with 0.35g Matte Finish",
+      "price": 380,
+      "categroy": "beauty"
+    },
+    {
+      "id": 12,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/71IubON1wRS._AC_UL320_.jpg",
+      "title": "Pratiharye Women's Solid Above knee Baby Doll(Pack of 2)",
+      "price": 999,
+      "categroy": "cloth"
+    },
+    {
+      "id": 13,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/511mC+B3wOL._AC_UL320_.jpg",
+      "title": "Aquasure From Aquaguard Delight RO+UV+MTDS ,7L storage water purifier,suitable for borewell,tanker,municipal water (White) from Eureka Forbes",
+      "price": 16000,
+      "categroy": "electronic"
+    },
+    {
+      "id": 14,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/71hiYw-SQNL._AC_UL320_.jpg",
+      "title": "Amazon Brand - Inkast Denim Co. Men Casual Shirt",
+      "price": 2199,
+      "categroy": "cloth"
+    },
+    {
+      "id": 15,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/71gVtJPjZZL._AC_UL320_.jpg",
+      "title": "Sparx Mens Sm-439 Sneaker",
+      "price": 699,
+      "categroy": "shoes"
+    },
+    {
+      "id": 16,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61J1KM52YoL._AC_UL320_.jpg",
+      "title": "Kwality Wall's Fruit & Nut, 700 ml",
+      "price": 239,
+      "categroy": "food"
+    },
+    {
+      "id": 17,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/612E8Vgbd9L._AC_UL320_.jpg",
+      "title": "Shining Diva Fashion Long Chain Black Crystal Rose Flower Pendant Necklace for Women and Girls",
+      "price": 2499,
+      "categroy": "beauty"
+    },
+    {
+      "id": 18,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/81u7HdBakuL._AC_UL320_.jpg",
+      "title": "SOFTSPUN Microfiber Cleaning Cloths, 4pcs 40x40cms 340GSM Multi-Colour! Highly Absorbent, Lint and Streak Free, Multi -Purpose Wash Cloth for Kitchen, Car, Window, Stainless Steel, silverware.",
+      "price": 604,
+      "categroy": "beauty"
+    },
+    {
+      "id": 19,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/81uCyOtE-wL._AC_UL320_.jpg",
+      "title": "GoSriKi Women's Crepe Kurta",
+      "price": 3999,
+      "categroy": "cloth"
+    },
+    {
+      "id": 20,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/71Z8wOB-WTL._AC_UL320_.jpg",
+      "title": "AGARO Ace 1600 Watts, 21.5 kPa Suction Power, 21 litres Wet & Dry Stainless Steel Vacuum Cleaner with Blower Function and Washable Dust Bag",
+      "price": 999,
+      "categroy": "electronic"
+    },
+    {
+      "id": 21,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61J2gr1xbLL._AC_UL320_.jpg",
+      "title": "Dettol Liquid Handwash Refill – Skincare Hand Wash- 1500ml | pH Balanced | 10x Better Germ Protection",
+      "price": 209
+    },
+    {
+      "id": 22,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61NP4TCnLKL._AC_UL320_.jpg",
+      "title": "Elica 60 cm 1200 m3/hr Filterless Chimney with 15 Years Warranty (EFL-S607 LTW VMS, Motion Sensor Control, Black)",
+      "price": 28990
+    },
+    {
+      "id": 23,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/51kB-cw-j8L._AC_UL320_.jpg",
+      "title": "Elica 60 cm 880 m3/hr Chimney (Strip CF 60 NERO, 2 Cassette Filters, Black)",
+      "price": 11990
+    },
+    {
+      "id": 24,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61MGacLjRWL._AC_UL320_.jpg",
+      "title": "Dettol Liquid Handwash Refill – Skincare Hand Wash- 675ml (Buy 1 Get 1 Free) | pH Balanced | 10x Better Germ Protection",
+      "price": 218
+    },
+    {
+      "id": 25,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/51PwsOOMErL._AC_UL320_.jpg",
+      "title": "PHILIPS Digital Air Fryer HD9252/90 with Touch Panel, uses up to 90% less fat, 7 Pre-set Menu, 1400W, 4.1 Liter, with Rapid Air Technology (Black), Large",
+      "price": 12595,
+      "categroy": "electronic"
+    },
+    {
+      "id": 26,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/81RmyL+TpdL._AC_UL320_.jpg",
+      "title": "RIVERSOFT SF-15 PRO abs shower and tap filter for hard water with 15 stage (Chrome, Pack of 1)",
+      "price": 4999
+    },
+    {
+      "id": 27,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61fB2NdHMyL._AC_UL320_.jpg",
+      "title": "WILD MODA Women's Shoulder Bag, Set of 1",
+      "price": 1999
+    },
+    {
+      "id": 28,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/71v41Am4GxL._AC_UL320_.jpg",
+      "title": "Shining Diva Fashion Jewellery Stylish Black Lace 7 Pc Combo Choker Necklace Set For Women And Girls(Cmb227)",
+      "price": 2499,
+      "categroy": "beauty"
+    },
+    {
+      "id": 29,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/41YvL1oOZ5S._AC_UL320_.jpg",
+      "title": "INALSA Hand Blender Robot 1000 Pro S-1000 Watts| Super Silent DC Motor| Variable Speed Control| Detachable Stem for Cleaning & Storage|(Black/Silver)",
+      "price": 3365
+    },
+    {
+      "id": 30,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/611tYIVZADL._AC_UL320_.jpg",
+      "title": "Maurvi 20W 20 WATT 7MM HOT MELT Glue Gun with ON Off Switch and LED Indicator (NEON Color & Free 10 Transparent Glue Sticks)",
+      "price": 1099
+    },
+    {
+      "id": 31,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/71G6UQ0ZUeL._AC_UL320_.jpg",
+      "title": "minicult Cotton Pajama Pants with All Over Print for Boys and Girls (Multicolor Designs)(Regular Fit)(Pack of 5)",
+      "price": 1099,
+      "categroy": "cloth"
+    },
+    {
+      "id": 32,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/915DPNw7xML._AC_UL320_.jpg",
+      "title": "Havells Ventil Air DSP 230mm Exhaust Fan (Pista Green)",
+      "price": 1985,
+      "categroy": "electronic"
+    },
+    {
+      "id": 33,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61HeD8a-M2L._AC_UL320_.jpg",
+      "title": "recron Joy Fibre Cushion - 41 Cm X 41 Cm, White(Cotton)",
+      "price": 905
+    },
+    {
+      "id": 34,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/71yt7wUHVPL._AC_UL320_.jpg",
+      "title": "ea ekam art Sun Protection Rajasthani Umbrella Handicraft Walking Stick - 5 Pieces",
+      "price": 1750
+    },
+    {
+      "id": 35,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/51obvF1uWqL._AC_UL320_.jpg",
+      "title": "Havells Ventil Air DX 250mm Exhaust Fan",
+      "price": 2090
+    },
+    {
+      "id": 36,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/71Fn+A6IekS._AC_UL320_.jpg",
+      "title": "Lavie Women's Nova Tote Bag | Ladies Purse Handbag",
+      "price": "₹2,499"
+    },
+    {
+      "id": 37,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/616wKg82wWL._AC_UL320_.jpg",
+      "title": "Yellow Chimes Rings for Women Multicolor Floral Adjustable Ring Sparkling Love Swiss Zircon Rose Gold Plated Rings for Women and Girls.",
+      "price": 1388,
+      "categroy": "beauty"
+    },
+    {
+      "id": 38,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/91+L4otNgzS._AC_UL320_.jpg",
+      "title": "BINORI FASHIONS Rajasthani Style Royal Clutch Silk Batwa Bag Wristlets Ethnic Potli For Women's Zari Work Potli Bridal Potli",
+      "price": 499
+    },
+    {
+      "id": 39,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61d6CsjA8lL._AC_UL320_.jpg",
+      "title": "Zollyss Portable Digital 50 Kg Weighing Scale with Metal Hook (Black)",
+      "price": 799
+    },
+    {
+      "id": 40,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/41flQn4KspL._AC_UL320_.jpg",
+      "title": "NEVI Blue and Silver Crystal Stainless Steel Couple Rings for Men and Women",
+      "price": 799,
+      "categroy": "beauty"
+    },
+    {
+      "id": 41,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/51fsCV7fq7L._AC_UL320_.jpg",
+      "title": "Kama Ayurveda Jwalini Retexturising Skin Treatment Oil, 100ml",
+      "price": 995
+    },
+    {
+      "id": 42,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61VvRWpzwsL._AC_UL320_.jpg",
+      "title": "Hotmelt Stainless Steel Water Bottle Pump Automatic Drinking Portable Electric Universal Dispenser (5 Gallon, Color-Black)",
+      "price": 699,
+      "categroy": "electronic"
+    },
+    {
+      "id": 43,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61MMo3L63rL._AC_UL320_.jpg",
+      "title": "Elica 60 cm 1200 m3/hr Filterless Auto Clean Chimney with 15 Years Warranty (WDFL 606 HAC LTW MS NERO, Touch + Motion Sensor Control, Black)",
+      "price": 23990,
+      "categroy": "electronic"
+    },
+    {
+      "id": 44,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61QLaVlETHL._AC_UL320_.jpg",
+      "title": "ADISA Women's & Girls' Sling Bag",
+      "price": 1499
+    },
+    {
+      "id": 45,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/717caP+QkqL._AC_UL320_.jpg",
+      "title": "Yellow Chimes Valentine Gift for Girls Bracelet for Women and Girls | Fashion Rose Gold Crystal Studded Bracelets for Women and Girls | Rose Gold Plated Coin Shaped Bracelet | Accessories Jewellery for Women | Birthday Gift for Girls and Women Anniversary Gift for Wife",
+      "price": 999
+    },
+    {
+      "id": 46,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/513vJoy-EfL._AC_UL320_.jpg",
+      "title": "SeCro Plastic Film Universal Travel Adapter with Built in Dual USB Charger Ports with 125V 6A, 250V Surge/Spike Protected Electrical Plug (White) (Style A)",
+      "price": 727
+    },
+    {
+      "id": 47,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61BN65p+qbS._AC_UL320_.jpg",
+      "title": "Preethi MGA-515 1 Litre Taper Jar (White), Stainless Steel",
+      "price": 605
+    },
+    {
+      "id": 48,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61vN4ZtIwWL._AC_UL320_.jpg",
+      "title": "KOFY Jet Flame Lighter With Gas Can 500 Ml(Multicolour)",
+      "price": 599
+    },
+    {
+      "id": 49,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/51GKuL90nlL._AC_UL320_.jpg",
+      "title": "D'Cal - Hard Water Softener | For Complete House | Protects Taps, Pipes & Bathrooms | Reduces Dry Skin & Hair Loss | Easy to Use | 1 year Life | No Maintenance | Food Grade",
+      "price": 800
+    },
+    {
+      "id": 50,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/715xl1ueLvL._AC_UL320_.jpg",
+      "title": "Shell Advance Ultra 4T 10W-40 API SN Fully Synthetic Motorbike Engine Oil (1 L)",
+      "price": 805
+    },
+    {
+      "id": 51,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/71-RiHxbMjL._AC_UL320_.jpg",
+      "title": "Fulminare Self-Adhesive Aluminium Bathroom Corner Shelf Rack Bathroom Corner Organizer Stand Bathroom Organisers Storage Racks Bathroom Shelf/Shelves Corner - Polished Round Corner (Pack of 1)",
+      "price": 1999
+    },
+    {
+      "id": 52,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/51TM1MJKycL._AC_UL320_.jpg",
+      "title": "Zollyss 3 In 1 Kitchen Sink Organizer For Dishwasher Liquid, Brush, Cloth, Soap, Sponge, Etc. - (Pack Of 1,Plastic)",
+      "price": 899
+    },
+    {
+      "id": 53,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/41IvL+w8h-L._AC_UL320_.jpg",
+      "title": "Creative Textiles Portable Double Bad Round Ceiling Hung Mosquito Net Pest Control Comfortable for Family 100% AIR Flow Mosquito Net (White)",
+      "price": 1200
+    },
+    {
+      "id": 54,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/41LekhwwQ3L._AC_UL320_.jpg",
+      "title": "The Better Home Copper Water Bottle with Sipper 700ml | Leakproof | BPA Free Water Bottle with Anti Oxidant Properties of Copper | Sipper Bottle For Adults and Kids (Pack Of 1)",
+      "price": 3499
+    },
+    {
+      "id": 55,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/91AUcF7C+VL._AC_UL320_.jpg",
+      "title": "Storite Stylish Padded Small Nylon Sling Cross Body Travel Office Business Messenger Bag for Men Women",
+      "price": 3499
+    },
+    {
+      "id": 56,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/41mZ7nVyYBL._AC_UL320_.jpg",
+      "title": "ZOSHOMI Auto Cut Off Portable Instant Water Heater/Geyser for Kitchen, Bathroom, Office, Restaurant, Labs, Clinics, Saloon & Beauty Parlor (Multicolour)",
+      "price": 4999
+    },
+    {
+      "id": 57,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/715l1odFnbL._AC_UL320_.jpg",
+      "title": "AGARO 33398 Rapid 1000-Watt, 10-Litre Wet & Dry Vacuum Cleaner, with Blower Function (Red & Black)",
+      "price": 5999
+    },
+    {
+      "id": 58,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/51kruAiguwL._AC_UL320_.jpg",
+      "title": "Usha Aquerra Dg 15 Litre 5 Star Digital Storage Water Heater With Remote (White), Wall Mounting",
+      "price": 14295
+    },
+    {
+      "id": 59,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/71i+AAp+MoL._AC_UL320_.jpg",
+      "title": "IBELL Heat Gun HG20-82, 2000W, Dual Air Flow 250 | 550 L/min, Dual Temp 350 °C | 550 °C (Red)",
+      "price": 1900
+    }
+  ],
+  "massage": [
+    {
+      "id": 1,
+      "image": "https://m.media-amazon.com/images/I/61BzwtmQptL._AC_UL320_.jpg",
+      "title": "beatXP Bolt Deep Tissue Massage Gun | Percussion Muscle Massager for Full Body Pain Relief of Neck, Shoulder, Back, Foot for Men & Women Up to 1 Year Warranty (Black)",
+      "price": 4999
+    },
+    {
+      "id": 2,
+      "image": "https://m.media-amazon.com/images/I/61aPcaxfz2L._AC_UL320_.jpg",
+      "title": "Flexnest Premium German-Designed Vibration Gun Massager with 4 Silicone Coated Heads and Long Battery Life for Physio Pain Relief, Deep Tissue Percussion for Full Body, Battery Powered, Black",
+      "price": 6999
+    },
+    {
+      "id": 3,
+      "image": "https://m.media-amazon.com/images/I/61RjbZ68WrL._AC_UL320_.jpg",
+      "title": "beatXP Blaze Electric Body Massager with 3 Massage Heads - Shiatsu Full Body Relaxation for Pain and Stress Relief - Infra Red Heat Therapy - Back, Leg, Foot & Body Slimming Massager, 1 Year Warranty",
+      "price": 2999
+    },
+    {
+      "id": 4,
+      "image": "https://m.media-amazon.com/images/I/61BzwtmQptL._AC_UL320_.jpg",
+      "title": "beatXP Bolt Deep Tissue Massage Gun | Percussion Muscle Massager for Full Body Pain Relief of Neck, Shoulder, Back, Foot for Men & Women Up to 1 Year Warranty (Black)",
+      "price": 4999
+    },
+    {
+      "id": 5,
+      "image": "https://m.media-amazon.com/images/I/71OMkkfrJfL._AC_UL320_.jpg",
+      "title": "AGARO Atom Electric Handheld Full Body Massager with 3 Massage Heads & Variable Speed Settings for Pain Relief and Relaxation, Back, Leg & Foot, Black",
+      "price": 1495
+    },
+    {
+      "id": 6,
+      "image": "https://m.media-amazon.com/images/I/41OKxXLfQeL._AC_UL320_.jpg",
+      "title": "KPD 1Pc- 24K Gold Massager Electric Vibration Energy Beauty Bar Facial Massage for Roller Waterproof Face Skin Care T-Shaped Anti Wrinkle Massager for Forehead, Cheek,Neck ,Clavicle Arm Leg (Gold-color)",
+      "price": 999
+    },
+    {
+      "id": 7,
+      "image": "https://m.media-amazon.com/images/I/61oXrd-Ac8L._AC_UL320_.jpg",
+      "title": "AGARO MARVEL Electric Handheld Full Body Hammer Massager with 5 Massage Heads, 5 Mode & 6 Speed Settings for Pain Relief & Relaxation, Back, Leg & Foot, Black and Silver",
+      "price": "₹3,495"
+    },
+    {
+      "id": 8,
+      "image": "https://m.media-amazon.com/images/I/51WzBbuGOaL._AC_UL320_.jpg",
+      "title": "AMSO Products Massage Pillow With 4 Kneading Massage Modes For Back, Neck, Lower Back and Shoulder (Pack of 1)",
+      "price": "₹3,000"
+    },
+    {
+      "id": 9,
+      "image": "https://m.media-amazon.com/images/I/51RX47KjKuL._AC_UL320_.jpg",
+      "title": "Azah Personal Body Massager with 20+ Vibration Modes | Rechargeable, Handheld, Cordless  | Waterproof & Easy to Clean | For Women and Men | Flexible Head for Targeted Compression",
+      "price": "₹1,099"
+    },
+    {
+      "id": 10,
+      "image": "https://m.media-amazon.com/images/I/41MwT95fZcS._AC_UL320_.jpg",
+      "title": "R A Products Mini 3D Manual Roller Massager 360 Rotate Face-lift Wrinkle Remover Facial Massage For Relaxation and Slimming Skin Tighten Wrinkle Remover",
+      "price": "₹485"
+    },
+    {
+      "id": 11,
+      "image": "https://m.media-amazon.com/images/I/61zpdN07ntL._AC_UL320_.jpg",
+      "title": "Lifelong LLM180 Electric Handheld Full Body Massager with 8 Massage Heads | Free Hot + Cold Gel Pack and Variable Speed Settings For Pain Relief & Relaxation|Handheld Full Body Massager Machine (1 Year Warranty, Brown)",
+      "price": "₹4,200"
+    },
+    {
+      "id": 12,
+      "image": "https://m.media-amazon.com/images/I/415dF6X0-UL._AC_UL320_.jpg",
+      "title": "Lifelong LLM270 Powerful Handheld Electric Manipol Massager| Massager for pain relief | Massage at home (Brown, 1 Year Warranty)",
+      "price": "₹2,300"
+    },
+    {
+      "id": 13,
+      "image": "https://m.media-amazon.com/images/I/71OMkkfrJfL._AC_UL320_.jpg",
+      "title": "AGARO Atom Electric Handheld Full Body Massager with 3 Massage Heads & Variable Speed Settings for Pain Relief and Relaxation, Back, Leg & Foot, Black",
+      "price": "₹1,495"
+    },
+    {
+      "id": 14,
+      "image": "https://m.media-amazon.com/images/I/51m7Mke2XSL._AC_UL320_.jpg",
+      "title": "ALHAMZA Black Prince Powerful Double Speed Built Professional Electric Massager for Full Body Massage",
+      "price": "₹3,500"
+    },
+    {
+      "id": 15,
+      "image": "https://m.media-amazon.com/images/I/71zGI2igk5L._AC_UL320_.jpg",
+      "title": "AGARO Dual Channel TENS Massager TM2421 24 Modes, 20 Intensity Levels, Rechargeable, Muscle/Nerve Stimulator for Pain Relief Therapy, Physiotherapy Machine, 10 Gel Pads, Period Pain, Pulse Massager",
+      "price": "₹4,999"
+    },
+    {
+      "id": 16,
+      "image": "https://m.media-amazon.com/images/I/71pny5nCjnL._AC_UL320_.jpg",
+      "title": "Dr Trust Physio (USA) Electric Heat Shiatsu Machine Body Massagers (for Cervical Neck Shoulder & Back Pain Relief)",
+      "price": "₹4,000"
+    },
+    {
+      "id": 17,
+      "image": "https://m.media-amazon.com/images/I/4189-hvrWbL._AC_UL320_.jpg",
+      "title": "Lifelong LLM09 Mini Head and Body Massager, Portable Compact Full Body Vibration Electric Massager Battery Operated Massager for Pain Relief (1 Year Warranty,Brown)",
+      "price": "₹1,350"
+    },
+    {
+      "id": 18,
+      "image": "https://m.media-amazon.com/images/I/71uaT069fwL._AC_UL320_.jpg",
+      "title": "FEGSY Personal Body Massager for Women, Men, Rechargeable Wireless Vibration Machine for Female with 20 Vibration Modes, 8 Speeds, Flexible Head for Targeted Compression (Black)",
+      "price": "₹1,199"
+    },
+    {
+      "id": 19,
+      "image": "https://m.media-amazon.com/images/I/61KCFnAQbnL._AC_UL320_.jpg",
+      "title": "Dr Physio Supervolt Go 1023 Pro Cordless Rechargeable Portable Massager for Deep Tissue Muscle Massage, Body Relaxation and Pain Relief- (Matte Black) …",
+      "price": "₹6,000"
+    },
+    {
+      "id": 20,
+      "image": "https://m.media-amazon.com/images/I/61neWpptTzL._AC_UL320_.jpg",
+      "title": "SAPPHIRE INDIA Rechargeable Body Massager for Women and Men / Handheld Waterproof Vibrate Wand Massage Machine with 20 Vibration Modes - 8 Speeds, Battery Powered, Full Body Massager, Multicolor",
+      "price": "₹1,599"
+    },
+    {
+      "id": 21,
+      "image": "https://m.media-amazon.com/images/I/61oiHHde+SL._AC_UL320_.jpg",
+      "title": "Dr Trust (USA) Long Acupressure Foam Roller For Deep Tissue Muscle Massage Exercise Fitness and pain relief Equipment",
+      "price": "₹1,900"
+    },
+    {
+      "id": 22,
+      "image": "https://m.media-amazon.com/images/I/51baGmHlQuL._AC_UL320_.jpg",
+      "title": "MORWEN HERBAL MASSAGE POTLI (PACK OF 1), Authentic Ayurveda, 100% Natural, Herbal Compress Ball, Khizi, Thai Massage Potli, Aromatherapy Massage for Home, Spa & Professional Use",
+      "price": "₹345"
+    },
+    {
+      "id": 23,
+      "image": "https://m.media-amazon.com/images/I/61RNOzux+WL._AC_UL320_.jpg",
+      "title": "R A PRODUCTS Blueidea Corded Electric Digital Therapy Machine Relax from Stress And Tiredness for Full-Body Massage",
+      "price": "₹899"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/51E04nA83qL._AC_UL320_.jpg",
+      "title": "VRINIV Cordless Knee Massager For Pain Relief |Knee Massager, Electric Knee Massage Machine with Infrared Heated Vibration Physiotherapy Also Useful For Shoulder,Arms|GEN 2 |1 Year Warranty",
+      "price": "₹3,847"
+    },
+    {
+      "id": 24,
+      "image": "https://m.media-amazon.com/images/I/81Zyn+K8IqL._AC_UL320_.jpg",
+      "title": "MEDITIVE Cordless Deep Tissue Massage Gun With 8 Attachments, Handheld Massager Sport Massage Gun Heads Powerful Percussion Muscle Massage Gun for Athletes Back Pain Relief with 1 year warranty.",
+      "price": "₹4,499"
+    },
+    {
+      "id": 25,
+      "image": "https://m.media-amazon.com/images/I/61LdVBcy3oL._AC_UL320_.jpg",
+      "title": "beatXP Deep Heal Shiatsu Massager with Infrared Heat Therapy | Deep Tissue Full Body Massager with 4D Kneading Massage for Shoulder, Neck, Back, Muscle Pain Relief, 1 Year Warranty, Corded Electric",
+      "price": "₹7,999"
+    },
+    {
+      "id": 26,
+      "image": "https://m.media-amazon.com/images/I/711RabLyyhL._AC_UL320_.jpg",
+      "title": "AGARO Impact Electric Gun Massager, Handheld With 6 Massage Heads, 5 Speed, For Deep Tissue Massage, Body Relaxation And Pain Relief (Black)",
+      "price": "₹3,995"
+    },
+    {
+      "id": 27,
+      "image": "https://m.media-amazon.com/images/I/51IqRv877DL._AC_UL320_.jpg",
+      "title": "Ancient Living Organic Relaxing Foot Massage Oil with Foot Massager",
+      "price": "₹399"
+    },
+    {
+      "id": 28,
+      "image": "https://m.media-amazon.com/images/I/715mJb47wFL._AC_UL320_.jpg",
+      "title": "AGARO M6542 Massage Mat with Lukewarm Heat-10 Motors Vibrating Massage Mattress Pad with 2 Heating Pads for Back, Full Body Massager for Neck and Back, Lumbar Calf Muscle Relaxation",
+      "price": "₹9,995"
+    },
+    {
+      "id": 29,
+      "image": "https://m.media-amazon.com/images/I/51X1QVza9DL._AC_UL320_.jpg",
+      "title": "Auravedic Relaxing Body Massage oil for full body 200 ml Massage oil with Lavender oil, Eucalyptus oil, Mint oil. Soothing and Destressing body massage oil for women and men",
+      "price": "₹400"
+    },
+    {
+      "id": 30,
+      "image": "https://m.media-amazon.com/images/I/61qyKZgWqDL._AC_UL320_.jpg",
+      "title": "AGARO REGAL Electric Handheld Full Body Massager with 8 Massage Heads and Variable Speed Settings for Pain Relief and Relaxation, Back, Leg & Foot, Blue",
+      "price": "₹3,195"
+    },
+    {
+      "id": 31,
+      "image": "https://m.media-amazon.com/images/I/61zF8Y1nHML._AC_UL320_.jpg",
+      "title": "AGARO MARVEL Electric Handheld Full Body Massager with 8 Massage Heads, 5 Mode & 6 Speed Settings for Back, Leg & Foot, White",
+      "price": "₹1,995"
+    },
+    {
+      "id": 32,
+      "image": "https://m.media-amazon.com/images/I/71vw+ykG+aL._AC_UL320_.jpg",
+      "title": "MEDITIVE Foam Roller For Gym and Home Workout, Deep Tissue Massage For Physical Therapy Exercise & Back Pain Massager Pain Relief Best For Muscle Recovery",
+      "price": "₹1,399"
+    }
+  ],
+  "cartdata": [
+    {
+      "id": 38,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/91+L4otNgzS._AC_UL320_.jpg",
+      "title": "BINORI FASHIONS Rajasthani Style Royal Clutch Silk Batwa Bag Wristlets Ethnic Potli For Women's Zari Work Potli Bridal Potli",
+      "price": 499
+    }
+  ]
+}
