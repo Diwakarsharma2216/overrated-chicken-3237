@@ -50,23 +50,24 @@ import { Navigate } from 'react-router-dom';
     const [state,dispach]=useReducer(reducer,iniitalstate)
   
 
- 
-    const handleclick=async()=>{
+const handleclick=async()=>{
       try {
         await signInWithEmailAndPassword(auth,email, password).then((userCredential)=>{
         console.log(userCredential)
           dispach({type:"reset"})
          alert("Login Succesful")
-       
+         
         } )
     
       } catch (error) {
-        alert("wrong password")
+        alert("wrong Crendtial")
+        
       }
     
     
     }
     const {email,password}=state
+  
     return (<>
     <Nav />
     <Flex
@@ -78,9 +79,9 @@ import { Navigate } from 'react-router-dom';
     >
       <Stack spacing={8} mx={'auto'} maxW={'lg'} py={12} px={6}>
         <Stack align={'center'}>
-          <Heading fontSize={'4xl'}>Sign in to your account</Heading>
+          <Heading fontSize={'4xl'}>Login Here!😎</Heading>
           <Text fontSize={'lg'} color={'gray.600'}>
-            to enjoy all of our cool <Link color={'blue.400'}>features</Link> ✌️
+            <Link color={'blue.400'}>HEveN</Link> ✌️
           </Text>
         </Stack>
         <Box

@@ -1,4 +1,5 @@
 import React, { useReducer } from 'react'
+import 'firebase/storage'
 import {
     Flex,
     Box,
@@ -29,7 +30,7 @@ const iniitalstate={
   email:"",
   password:"",
   firstname:"",
-  lastname:""
+  img:""
 }
 const reducer=(state,action)=>{
  switch(action.type){
@@ -43,9 +44,9 @@ const reducer=(state,action)=>{
       firstname:action.payload
     }
   }
-  case "lastname":{
+  case "img":{
     return {...state,
-      lastname:action.payload
+      img:action.payload
     }
   }
   case "password":{
@@ -71,17 +72,14 @@ const reducer=(state,action)=>{
           dispach({type:"reset"})
           alert("succesful singin")
           const user = userCredential.user;
-          console.log(user)
+          // console.log(user)
         })
-        
-        }
-       
-       catch (error) {
+      }catch (error) {
         console.log(error)
       }
     
     }
-    const {email,password,firstname,lastname}=state
+    const {email,password,firstname,img}=state
     return (
         <>
         <Nav />
@@ -111,14 +109,14 @@ const reducer=(state,action)=>{
               <HStack>
                 <Box>
                   <FormControl id="firstName" isRequired>
-                    <FormLabel>First Name</FormLabel>
+                    <FormLabel>UserName</FormLabel>
                     <Input type="text" value={firstname} onChange={(e)=>dispach({type:"firstname",payload:e.target.value})} />
                   </FormControl>
                 </Box>
                 <Box>
                   <FormControl id="lastName">
-                    <FormLabel>Last Name</FormLabel>
-                    <Input type="text" value={lastname} onChange={(e)=>dispach({type:"lastname",payload:e.target.value})} />
+                    <FormLabel>User Image</FormLabel>
+                    <Input type="file" value={img} onChange={(e)=>dispach({type:"img",payload:e.target.value})} />
                   </FormControl>
                 </Box>
               </HStack>
@@ -164,7 +162,7 @@ const reducer=(state,action)=>{
         </Stack>
       </Flex>
       {/* socal media part Here */}
-      <Center p={8}>
+      <Center p={8} mt={"-8%"}>
       <Stack spacing={2} align={'center'} maxW={'md'} w={'full'}>
         {/* Facebook */}
         <Button w={'full'} colorScheme={'facebook'} leftIcon={<FaFacebook />}>

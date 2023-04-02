@@ -1,4 +1,5 @@
 import React, { useReducer } from 'react'
+import Nav from "../component/Nav"
 import {
     Box,
     Button,
@@ -14,6 +15,7 @@ import {
   } from '@chakra-ui/react';
 
 import axios from "axios"
+import Footer from '../component/Footer';
   const iniitalstate={
     title:"",
     description:"",
@@ -65,6 +67,8 @@ const DashBoard = () => {
    
     }
   return (
+    <>
+    <Nav />
     <Box bg="gray.100" p={4}>
       <Center>
         <Box maxW="xl" bg="white" p={8} rounded="lg" boxShadow="lg">
@@ -95,6 +99,8 @@ const DashBoard = () => {
         </Box>
       </Center>
     </Box>
+    <Footer />
+    </>
   )
 }
 

@@ -50,7 +50,7 @@ const NewPage = () => {
   emptyColor='gray.200'
   color='blue.500'
   size='xl'/></Box> : <SimpleGrid  ml="5%"  mr="5%" mt={"5%"} gap={"5px"}  columns={{base:1,sm:4,md:4,lg:4,xl:4,"2xl":4}}>
-       {data.map((el)=><LinkBox boxSize='m' textAlign={"center"}  >
+       {data.map((el)=><LinkBox boxSize='m' textAlign={"center"} key={el.id}  >
        <LinkOverlay  href={`/new/${el.id}`}>
        <Box
         role={'group'}

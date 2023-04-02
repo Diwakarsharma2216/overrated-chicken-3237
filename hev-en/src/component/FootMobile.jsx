@@ -76,7 +76,9 @@ const FootMobile = () => {
         ml: 8,
       }}>
       {/* <Logo /> */}
-      <Box><Image src={logo} height></Image></Box>
+      <Box><Image src={logo} height={"60px"}></Image>
+      DiwakarSharma
+      </Box>
     </Flex>
     <Text pt={6} fontSize={'sm'} textAlign={'center'}>
       © HEAVENLY HAVEN All rights reserved
