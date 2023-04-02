@@ -1,74 +1,88 @@
-import React from 'react'
-import {Box, Button, Text,Flex, Grid, GridItem, Heading, HStack, Image, Link, VStack, Container} from "@chakra-ui/react"
+import {
+  Box,
+  Container,
+  Link,
+  SimpleGrid,
+  Stack,
+  Text,
+  Flex,
+  Tag,
+  useColorModeValue,
+  Image,
+  useBreakpointValue 
+} from '@chakra-ui/react';
 import logo from "../Image/diwa.png"
+
+
+
+
+const ListHeader = ({ children }) => {
+  return (
+    <Text fontWeight={'500'} fontSize={'lg'} mb={2}>
+
+      {children}
+    </Text>
+  );
+};
 const FootMobile = () => {
-  return <div >
-        <Flex justifyContent={"center"} textAlign="center">
-        <VStack gap={2}>
-       <Box>
-         <Text fontSize='3xl'>Stay in the Loop</Text>
-         <Box>Sign Up And be the to Hear about new</Box>
-         <Box>Product and promotions</Box>
-       </Box>
-       <Box>
-        <Button width={"100%"} colorScheme={"blue"}>Sign Up Now</Button>
-       </Box>
-       <Box>
-        <HStack spacing={1}>
-            <Box><Image  borderRadius='full'
-  boxSize='50px'
-  src='https://w7.pngwing.com/pngs/963/811/png-transparent-youtube-logo-youtube-red-logo-computer-icons-youtube-television-angle-rectangle-thumbnail.png'
-  alt='Dan Abramov'></Image></Box>
-            <Box><Image
-             borderRadius='full'
-             boxSize='50px'
-             src='https://w7.pngwing.com/pngs/477/609/png-transparent-logo-computer-icons-instagram-logo-instagram-logo-miscellaneous-text-trademark.png'
-             alt='Dan Abramov'></Image></Box>
-            <Box><Image
-             borderRadius='full'
-             boxSize='50px'
-             src='https://w7.pngwing.com/pngs/239/740/png-transparent-twitter-logo-icon-twitter-file-logo-social-media-news-thumbnail.png'
-             alt='Dan Abramov'></Image></Box>
-            <Box><Image
-             borderRadius='full'
-             boxSize='50px'
-             src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png'
-             alt='Dan Abramov'></Image></Box>
-            <Box><Image 
-             borderRadius='full'
-             boxSize='50px'
-             src='https://upload.wikimedia.org/wikipedia/commons/6/61/Wikipedia-logo-transparent.png'
-             alt='Dan Abramov'></Image></Box>
-        </HStack>
-       </Box>
-       </VStack>
-       </Flex>
-       <br />
-       <hr color='blue' />
-       <Flex justify="center" >
-       <Grid templateColumns='repeat(2, 1fr)' >
-        <GridItem ml={"20px"}>
-              <Text fontSize='3xl'>Shop</Text>
-              <Text>HavenlyHeven.COM</Text>
-              <Text>Message</Text>
-              <Link>FAQ</Link><br />
-              <Link>About Us</Link><br />
-              <Link>Privacy Policy</Link><br />
-             
-        </GridItem>
-        <GridItem ml={"20px"}>
-            <Text fontSize='3xl'>Customer</Text>
-            
-              <Text>Message Chair Buyers Guide</Text>
-              <Link href="/#">Contact Us</Link><br />
-              <Link>Order Tracking</Link><br />
-              <Link>Return Policy</Link><br />
-        </GridItem>
-       </Grid>
-     </Flex>
-     <Container  mt={"20px"} maxW={"100px"}><Image  src={logo} width="120px"></Image></Container>
-     <Text textAlign={"center"}>@Diwakar Sharma</Text>
-    </div>
+  return<Box
+  bg={useColorModeValue('gray.50', 'gray.900')}
+  color={useColorModeValue('gray.700', 'gray.200')}>
+  <Container as={Stack} maxW={'6xl'} py={10}>
+    <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8}>
+      <Stack align={'flex-start'}>
+        <ListHeader>Product</ListHeader>
+        <Link href={'#'}>Overview</Link>
+        <Stack direction={'row'} align={'center'} spacing={2}>
+          <Link href={'#'}>SHop</Link>
+          <Tag
+            size={'sm'}
+            bg={useColorModeValue('green.300', 'green.800')}
+            ml={2}
+            color={'white'}>
+            New
+          </Tag>
+        </Stack>
+        <Link href={'#'}>Meassge</Link>
+        <Link href={'#'}>FAQ</Link>
+        <Link href={'#'}>Order Tracking</Link>
+      </Stack>
+     
+      <Stack align={'flex-start'}>
+        <ListHeader>Follow Us</ListHeader>
+        <Link href={'#'}>Facebook</Link>
+        <Link href={'#'}>Twitter</Link>
+        <Link href={'#'}>Dribbble</Link>
+        <Link href={'#'}>Instagram</Link>
+        <Link href={'#'}>LinkedIn</Link>
+      </Stack>
+    </SimpleGrid>
+  </Container>
+  <Box py={10}>
+    <Flex
+      align={'center'}
+      _before={{
+        content: '""',
+        borderBottom: '1px solid',
+        borderColor: useColorModeValue('gray.200', 'gray.700'),
+        flexGrow: 1,
+        mr: 8,
+      }}
+      _after={{
+        content: '""',
+        borderBottom: '1px solid',
+        borderColor: useColorModeValue('gray.200', 'gray.700'),
+        flexGrow: 1,
+        ml: 8,
+      }}>
+      {/* <Logo /> */}
+      <Box><Image src={logo} height></Image></Box>
+    </Flex>
+    <Text pt={6} fontSize={'sm'} textAlign={'center'}>
+      © HEAVENLY HAVEN All rights reserved
+    </Text>
+  </Box>
+</Box>
   
 }
 

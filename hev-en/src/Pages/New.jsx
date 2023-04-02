@@ -1,9 +1,9 @@
-import { Heading, Image, LinkBox, LinkOverlay,SimpleGrid, Text , Stack,Box, Spinner, Container, Button} from '@chakra-ui/react'
+import { Heading, Image, LinkBox, LinkOverlay,SimpleGrid, Text , Stack,Box, Spinner, Button} from '@chakra-ui/react'
 import axios from 'axios'
 import React, { useContext, useEffect, useState } from 'react'
 import Footer from '../component/Footer'
 import Nav from '../component/Nav'
-import SelectTag from '../component/SelectTag'
+
 import { ContexVal } from '../Contex/Contex'
 
 
@@ -96,17 +96,17 @@ const NewPage = () => {
         </Box>
         <Stack pt={10} align={'center'}>
           <Text color={'gray.500'} fontSize={'sm'} textTransform={'uppercase'}>
-            Brand
+           hEveN
           </Text>
           <Heading fontSize={'2xl'} fontFamily={'body'} fontWeight={500}>
           {el.title?.split(" ").slice(0,5).join(" ")}
           </Heading>
           <Stack direction={'row'} align={'center'}>
             <Text fontWeight={800} fontSize={'xl'}>
-            {el.price}
+            ₹{el.price}
             </Text>
             <Text textDecoration={'line-through'} color={'gray.600'}>
-             {el.price+500}
+            ₹{el.price+500}
             </Text>
           </Stack>
         </Stack>
@@ -115,10 +115,10 @@ const NewPage = () => {
        </LinkOverlay>
        </LinkBox>)}
        </SimpleGrid> }
-       <Stack direction='row' spacing={4}  ml="40%" mt={"2%"}>
-       <Button isDisabled={page===1} onClick={()=>setpage(page-1)} colorScheme='teal' variant='outline'>Privious Page</Button>
-       <Button colorScheme='teal' variant='solid'>{page}</Button>
-       <Button  isDisabled={page===2} onClick={()=>setpage(page+1)} colorScheme='teal' variant='outline'>Next Page</Button>
+       <Stack direction='row' spacing={4}  ml={{base:"10%",md:"40%"}} mt={"2%"}>
+       <Button  isDisabled={page===1} onClick={()=>setpage(page-1)} colorScheme='teal' variant='outline'>Privious Page</Button>
+       <Button  colorScheme='teal' variant='solid'>{page}</Button>
+       <Button   isDisabled={page===2} onClick={()=>setpage(page+1)} colorScheme='teal' variant='outline'>Next Page</Button>
        </Stack>
       <Footer />
     </div>

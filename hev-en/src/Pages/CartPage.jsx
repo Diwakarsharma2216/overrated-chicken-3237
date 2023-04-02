@@ -1,9 +1,9 @@
-import { Button,HStack,Link,Image,Spinner,Box, VStack,Container,Text,Grid,Heading } from "@chakra-ui/react";
+import { Button,HStack,Image,Spinner,Box, VStack,Container,Text,Grid,Heading } from "@chakra-ui/react";
 import Footer from "../component/Footer";
 import axios from "axios";
 import Nav from "../component/Nav";
 import { useContext, useEffect, useState } from "react";
-import CartCompent from "./CartCompent";
+
 import { ContexVal } from "../Contex/Contex";
 import Payment from "./Payment";
 
@@ -72,7 +72,7 @@ const handledeleta=(id)=>{
               {el.title?.split(" ").slice(0,5).join(" ")}
               </Text>
               <Text fontSize="lg" color="gray.600">
-              {el.price}
+              ₹{el.price}
               </Text>
             </Box>
 

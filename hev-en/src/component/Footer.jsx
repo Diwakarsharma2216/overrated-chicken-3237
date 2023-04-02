@@ -39,7 +39,7 @@ export default function Footer() {
             <ListHeader>Product</ListHeader>
             <Link href={'#'}>Overview</Link>
             <Stack direction={'row'} align={'center'} spacing={2}>
-              <Link href={'#'}>Features</Link>
+              <Link href={'#'}>SHop</Link>
               <Tag
                 size={'sm'}
                 bg={useColorModeValue('green.300', 'green.800')}
@@ -48,9 +48,9 @@ export default function Footer() {
                 New
               </Tag>
             </Stack>
-            <Link href={'#'}>Tutorials</Link>
-            <Link href={'#'}>Pricing</Link>
-            <Link href={'#'}>Releases</Link>
+            <Link href={'#'}>Meassge</Link>
+            <Link href={'#'}>FAQ</Link>
+            <Link href={'#'}>Order Tracking</Link>
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Company</ListHeader>

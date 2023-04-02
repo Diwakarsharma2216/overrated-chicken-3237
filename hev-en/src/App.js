@@ -1,13 +1,15 @@
 
 import './App.css';
-import CartCompent from './Pages/CartCompent';
+// import { VideoPlayer } from './Pages/VideoPlayer';
+
 
 import AllRoutes from './Routes/AllRoutes';
 function App() {
   return (
     <div >
-    <AllRoutes />
-    {/* <CartCompent /> */}
+      <AllRoutes />
+    
+   {/* <VideoPlayer /> */}
     </div>
   );
 }

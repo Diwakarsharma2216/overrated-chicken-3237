@@ -10,12 +10,63 @@ import {
     Stack,
     Image,
     Text,
-    Box
+    Box,
+    
+    
   } from '@chakra-ui/react';
 import Footer from '../component/Footer';
 import Nav from '../component/Nav';
-  
+import { useReducer, useState } from 'react';
+import { auth } from './FireAuth';
+import {  signInWithEmailAndPassword } from 'firebase/auth'
+import { Navigate } from 'react-router-dom';
+
+
+  const iniitalstate={
+    email:"",
+    password:""
+  }
+  const reducer=(state,action)=>{
+   switch(action.type){
+    case "email":{
+      return {...state,
+        email:action.payload
+      }
+    }
+    case "password":{
+      return {...state,
+        password:action.payload
+      }
+    }
+    case "reset":{
+      return    iniitalstate
+    }
+    default:{
+    return    iniitalstate
+    }
+   }
+  }
   export default function LoginPage() {
+    const [state,dispach]=useReducer(reducer,iniitalstate)
+  
+
+ 
+    const handleclick=async()=>{
+      try {
+        await signInWithEmailAndPassword(auth,email, password).then((userCredential)=>{
+        console.log(userCredential)
+          dispach({type:"reset"})
+         alert("Login Succesful")
+       
+        } )
+    
+      } catch (error) {
+        alert("wrong password")
+      }
+    
+    
+    }
+    const {email,password}=state
     return (<>
     <Nav />
     <Flex
@@ -40,11 +91,11 @@ import Nav from '../component/Nav';
           <Stack spacing={4}>
             <FormControl id="email">
               <FormLabel>Email address</FormLabel>
-              <Input type="email" />
+              <Input type="email" value={email} onChange={(e)=>dispach({type:"email",payload:e.target.value})} />
             </FormControl>
             <FormControl id="password">
               <FormLabel>Password</FormLabel>
-              <Input type="password" />
+              <Input type="password" value={password} onChange={(e)=>dispach({type:"password",payload:e.target.value})} />
             </FormControl>
             <Stack spacing={10}>
               <Stack
@@ -57,10 +108,12 @@ import Nav from '../component/Nav';
               <Button
                 bg={'blue.400'}
                 color={'white'}
+                onClick={handleclick}
                 _hover={{
                   bg: 'blue.500',
+                 
                 }}>
-                Sign in
+                Log in
               </Button>
             </Stack>
           </Stack>

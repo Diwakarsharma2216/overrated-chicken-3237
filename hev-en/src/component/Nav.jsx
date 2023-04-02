@@ -83,6 +83,7 @@ export default function Nav() {
                   <MenuItem><Link href="/singup">Create Customer</Link></MenuItem>
                   <MenuItem><Link href="/login">Login</Link></MenuItem>
                   <MenuItem><Link href="/cart">Cart Page</Link></MenuItem>
+                  <MenuItem><Link href="/dashboard">DashBoard</Link></MenuItem>
                 </MenuList>
               </Menu>
             </Stack>
