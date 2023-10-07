@@ -12,8 +12,9 @@ const NewPage = () => {
   const [load,setload]=useState(false)
   const [page,setpage]=useState(1)
   const {search,filter,order}=useContext(ContexVal)
+const baseURL=process.env.REACT_APP_BASEURL
   const getdata=()=>{
-    return axios.get(`http://localhost:8080/new`,{
+    return axios.get(`${baseURL}/new`,{
       params:{
         _page:page,
         _limit:28,

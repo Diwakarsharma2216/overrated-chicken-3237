@@ -28,14 +28,14 @@ import { Navigate, useParams } from 'react-router-dom';
 export default function SingleProduct() {
   const [data,setdata]=useState({})
   const [load,setload]=useState(false)
-  
+  const baseURL=process.env.REACT_APP_BASEURL
   const {id}=useParams()
 
   const getdata=()=>{
-    return axios.get(`http://localhost:8080/new/${id}`)
+    return axios.get(`${baseURL}/new/${id}`)
   }
   const postdata=(val)=>{
-     axios.post(`http://localhost:8080/cartdata`,val).then(()=>{
+     axios.post(`${baseURL}/cartdata`,val).then(()=>{
    
     })
   }

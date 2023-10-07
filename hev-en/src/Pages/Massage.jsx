@@ -11,8 +11,9 @@ const Massage = () => {
   const [data,setdata]=useState([])
   const [load,setload]=useState(false)
   const {search,filter,order}=useContext(ContexVal)
+  const baseURL=process.env.REACT_APP_BASEURL
   const getdata=()=>{
-    return axios.get(`http://localhost:8080/massage`,{
+    return axios.get(`${baseURL}/massage`,{
       params:{
         _page:1,
         _limit:28,

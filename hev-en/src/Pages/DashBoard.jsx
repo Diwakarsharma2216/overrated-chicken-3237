@@ -59,8 +59,9 @@ import Footer from '../component/Footer';
 const DashBoard = () => {
     const [state,dispach]=useReducer(reducer,iniitalstate)
     const {title,description,price,img}=state
+    const baseURL=process.env.REACT_APP_BASEURL
     const handleclick=()=>{
-        axios.post(` http://localhost:8080/new`,state).then(()=>{
+        axios.post(`${baseURL}/new`,state).then(()=>{
             alert("Product Added Succesful")
             dispach({type:"reset"})
         })

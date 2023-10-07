@@ -13,10 +13,11 @@ function CartPage() {
   const [load,setload]=useState(false)
   const {amoutfun} =useContext(ContexVal)
   const [check,setcheck]=useState(false)
+  const baseURL=process.env.REACT_APP_BASEURL
   let totalprice=0
  
   const getdata=()=>{
-    return axios.get(` http://localhost:8080/cartdata`)
+    return axios.get(`${baseURL}/cartdata`)
   }
 
   const fetchfun=async()=>{
@@ -36,7 +37,7 @@ function CartPage() {
     amoutfun(totalprice)
 }
 const handledeleta=(id)=>{
- axios.delete(`http://localhost:8080/cartdata/${id}`).then(()=>{
+ axios.delete(`${baseURL}/cartdata/${id}`).then(()=>{
   fetchfun()
   amoutfun(totalprice)
  })

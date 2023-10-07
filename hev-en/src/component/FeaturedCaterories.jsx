@@ -6,10 +6,12 @@ const getdata=()=>{
 }
 const FeaturedCaterories = () => {
 const [data,setdata]=useState([])
+// const baseUrl=procee
     const FunFetch=async()=>{
         const data=await getdata()
         setdata(data.data)
     }
+    
     useEffect(()=>{
         FunFetch()
     },[])

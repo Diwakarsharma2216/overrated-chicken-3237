@@ -27,8 +27,9 @@ import {
     const [data,setdata]=useState([])
     const [load,setload]=useState(false)
     const {id}=useParams()
+    const baseURL=process.env.REACT_APP_BASEURL
     const getdata=()=>{
-      return axios.get(`http://localhost:8080/massage/${id}`)
+      return axios.get(`${baseURL}/massage/${id}`)
     }
     const fetchfun=async()=>{
       setload(true)
